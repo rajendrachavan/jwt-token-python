@@ -1,7 +1,7 @@
 import jwt
 from jwt.exceptions import ExpiredSignatureError
 
-class TokenGenerator():
+class TokenGenerator:
     
     my_secret = 't0k#N$#CR#T'
     
