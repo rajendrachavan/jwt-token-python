@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "jwt_token_x21124213"
-version = "0.0.2"
+version = "0.0.6"
 authors = [
   { name="Rajendra Chavan", email="rajendrachavan.jvm@gmail.com" },
 ]
@@ -15,6 +15,9 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+]
+dependencies = [
+  'PyJWT ~= 2.6.0'
 ]
 
 [project.urls]
